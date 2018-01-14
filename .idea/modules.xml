@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClaseAsync.iml" filepath="$PROJECT_DIR$/ClaseAsync.iml" />
+      <module fileurl="file://C:\Users\er_al\AndroidStudioProjects\ClaseAsync\ClaseAsync.iml" filepath="C:\Users\er_al\AndroidStudioProjects\ClaseAsync\ClaseAsync.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\er_al\AndroidStudioProjects\ClaseAsync\app\app.iml" filepath="C:\Users\er_al\AndroidStudioProjects\ClaseAsync\app\app.iml" />
     </modules>
   </component>
 </project>
