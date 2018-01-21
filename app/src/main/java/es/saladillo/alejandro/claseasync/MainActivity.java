@@ -31,15 +31,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+    //creacion del hilo secundario pasandole un numero de tareas
     @OnClick(R.id.btnStart)
     public void ejecutartarea() {
         TareaSecundaria tarea = new TareaSecundaria();
         tarea.execute(NUM_TAREAS);
     }
-
+    //Hilo secundario que realiza la tarea , el primer parametro corresponde al valor recivido
+    //en este caso el NUM_TAREA, el segundo valor corresponde a la actualizacion del progreso onPRogressUpdate
+    //El tercer valor corresponde al postexecute para actualizar la barra al acabar
     private class TareaSecundaria extends AsyncTask<Integer, Integer, Integer> {
-
+        //metodo donde ejecutaremos la atrea en segundo plano, en este caso un numero de tareas que actualizaran una barra de tareas
         @Override
         protected Integer doInBackground(Integer... params) {
             int numTrabajos = params[0];
